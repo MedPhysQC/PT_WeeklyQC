@@ -1,0 +1,24 @@
+{
+  "info": {
+    "dbversion": "20180209",
+    "magic": "wad-qc-factory",
+    "wadqcversion": "2.0.33"
+  },
+  "module": {
+    "description": "PT_WeeklyQC",
+    "executable": "PETQC_analysis.py",
+    "name": "PT_WeeklyQC",
+    "code": "python",
+    "dependencies": [
+      "numpy",
+      "pydicom",
+      "scipy",
+      "matplotlib",
+      "ast",
+      "string",
+      "os",
+      "math",
+      "datetime"
+    ]
+  }
+}
